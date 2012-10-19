@@ -5,9 +5,9 @@
 #  ALLEGRO5_NATIVE_DIALOGS_LIBRARIES - Link these to use allegro5
 #
 
-FIND_PATH(ALLEGRO5_NATIVE_DIALOGS_INCLUDE_DIR allegro5/allegro_dialog.h)
+FIND_PATH(ALLEGRO5_NATIVE_DIALOGS_INCLUDE_DIR allegro5/allegro_native_dialog.h)
 
-SET(ALLEGRO5_NATIVE_DIALOGS_NAMES ${ALLEGRO5_NATIVE_DIALOGS_NAMES} allegro_dialog allegro_dialog_static liballegro_dialog liballegro_dialog_static)
+SET(ALLEGRO5_NATIVE_DIALOGS_NAMES ${ALLEGRO5_NATIVE_DIALOGS_NAMES} allegro_native_dialog allegro_native_dialog_static liballegro_native_dialog liballegro_native_dialog_static)
 FIND_LIBRARY(ALLEGRO5_NATIVE_DIALOGS_LIBRARY NAMES ${ALLEGRO5_NATIVE_DIALOGS_NAMES} )
 
 # handle the QUIETLY and REQUIRED arguments and set ALLEGRO5_NATIVE_DIALOGS_FOUND to TRUE if
